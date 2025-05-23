@@ -43,9 +43,9 @@ function playGame() {
             (userSelection === 'PAPER' && computerSelection === 'ROCK') ||
             (userSelection === 'SCISSORS' && computerSelection === 'PAPER')
         ) {
-            console.log("User Wins");
+            console.log("YOU Wins");
         } else {
-            console.log("Computer Wins");
+            console.log("GameMaster Wins");
         }
 
         console.log('---');
